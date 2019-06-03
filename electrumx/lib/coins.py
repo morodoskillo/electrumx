@@ -780,7 +780,7 @@ class Peseacoin(AuxPowMixin, Coin):
 	XPUB_VERBYTES = bytes.fromhex("76071982")
     XPRV_VERBYTES = bytes.fromhex("76079604")
     P2PKH_VERBYTE = bytes.fromhex("2f")
-    P2SH_VERBYTES = [bytes.fromhex("16")]
+    P2SH_VERBYTES = [bytes.fromhex("16")
     GENESIS_HASH = ('edfe5830b53251bfff733600b1cd5c19'
                     '2e761c011b055f07924634818c906438')
     TX_COUNT = 2192681
