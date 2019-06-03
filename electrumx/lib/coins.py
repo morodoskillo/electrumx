@@ -770,6 +770,23 @@ class ViacoinTestnet(Viacoin):
 class ViacoinTestnetSegWit(ViacoinTestnet):
     NET = "testnet-segwit"
     DESERIALIZER = lib_tx.DeserializerSegWit
+    
+#Source: https://github.com/FundacionPesetacoin/PesetacoinCore
+    
+class Peseacoin(AuxPowMixin, Coin):
+	NAME = "Pesetacoin"
+	SHORTNAME= "PTC"
+	NET="mainnet"
+	XPUB_VERBYTES = bytes.fromhex("76071982")
+    XPRV_VERBYTES = bytes.fromhex("76079604")
+    P2PKH_VERBYTE = bytes.fromhex("2f")
+    P2SH_VERBYTES = [bytes.fromhex("16")]
+    GENESIS_HASH = ('edfe5830b53251bfff733600b1cd5c19'
+                    '2e761c011b055f07924634818c906438')
+    TX_COUNT = 2192681
+    TX_COUNT_HEIGHT =  1969646
+    TX_PER_BLOCK =  5  
+
 
 
 # Source: https://github.com/GravityCoinOfficial/GravityCoin/
