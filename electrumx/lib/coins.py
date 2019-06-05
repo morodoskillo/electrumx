@@ -786,10 +786,6 @@ class Peseacoin(AuxPowMixin, Coin):
     TX_COUNT_HEIGHT =  1969646
     TX_PER_BLOCK =  5  
     PEER_DEFAULT_PORTS = {'t': '50101', 's': '50102'}
-    PEERS = [
-        'electrum1.pesetacoin.info t',
-        'electrum.pesetacoin.info t',
-]
 
 
 # Source: https://github.com/GravityCoinOfficial/GravityCoin/
