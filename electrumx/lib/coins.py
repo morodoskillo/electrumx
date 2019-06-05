@@ -785,7 +785,7 @@ class Peseacoin(AuxPowMixin, Coin):
     TX_COUNT = 2192681
     TX_COUNT_HEIGHT =  1969646
     TX_PER_BLOCK =  5  
-    PEER_DEFAULT_PORTS = {'t': '50101', 's': '50102'}
+    PEER_DEFAULT_PORTS = {'t': '50001', 's': '50002'}
 
 
 # Source: https://github.com/GravityCoinOfficial/GravityCoin/
