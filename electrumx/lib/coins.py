@@ -787,8 +787,8 @@ class Peseacoin(AuxPowMixin, Coin):
     TX_PER_BLOCK =  5  
     PEER_DEFAULT_PORTS = {'t': '50101', 's': '50102'}
     PEERS = [
-        'electrum1.pesetacoin.info s t',
-        'electrum.pesetacoin.info s t',
+        'electrum1.pesetacoin.info t',
+        'electrum.pesetacoin.info t',
 ]
 
 
